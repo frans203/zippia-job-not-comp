@@ -1,0 +1,47 @@
+.jobs__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+}
+.jobs__h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+}
+.logo {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  filter: drop-shadow(0px 4px 1px rgb(39, 39, 39));
+}
+.jobs__input {
+  /* width: 80%; */
+  height: 2rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+.jobs__icon {
+  height: 2.2rem;
+  background: #2a265f;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: inherit;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+.jobs__icon:hover {
+  background: #5049b4;
+}
+.action__buttons .jobs__icon {
+  margin: 0.5rem;
+}
+.jobs__search form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
